@@ -1,0 +1,31 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/tracker.html/**",
+        "destination": "/tracker.html"
+      },
+      {
+        "source": "/:uid",
+        "destination": "/tracker.html"
+      },
+      {
+        "source": "/:uid/:name",
+        "destination": "/tracker.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
