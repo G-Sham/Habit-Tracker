@@ -90,16 +90,4 @@ The app uses Firebase for:
 - Real-time database (Firestore)
 - Cloud-hosted data
 
-Ensure your Firebase rules are properly configured for secure access.
-
-## Contributing
-
-Feel free to fork this project and submit pull requests for any improvements.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-For questions or feedback, please visit the GitHub repository.
+# website: https://lead-tracker-vbpoy.web.app/
